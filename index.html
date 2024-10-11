@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Management System</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section id="container" class="shadow">
+            <h1>EVENT ATTENDEE MANAGEMENT SYSTEM</h1>
+
+            <div id="add-attendee">
+                <label for="attendee-name">Add a new Attendee</label>
+                <input type="text" id="attendee-name" class="form-control" placeholder="Enter your name">
+                <div id="alert">
+
+                </div>
+                <button id="add-attendee-btn">Add Attendee</button>
+            </div>
+            <div id="search-attendee-section">
+                <label for="search-attendee">Search for an Attendee</label>
+                <input type="text" id="search-attendee" class="form-control" placeholder="Enter attendee name">
+                <button id="search-attendee-btn">Search Attendee</button>
+                <div id="display">
+                    <ul id="attendee-list">
+                        <li> Attendee Name: Obeni Daniel   Attendee Status: Attended</li>
+                        <li>Attendee Name: Michael Benard     Attendee Status: attended</li>
+                        <li>Attendee Name: Sergio Duru    Attendee Status: attended</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="list-attendee">
+                <button id="list-attendee-btn">Show all Attendees</button>
+                <div id="display-all-attendees">
+                    <ul id="list-all">
+                        <li> Attendee Name: Obeni Daniel   Attendee Status: Attended</li>
+                        <li>Attendee Name: Michael Benard     Attendee Status: attended</li>
+                        <li>Attendee Name: Sergio Duru    Attendee Status: attended</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="remove-attendee-section">
+                <label for="remove-attendee">Remove an Attendee</label>
+                <input type="text" id="remove-attendee" class="form-control" placeholder="Enter attendee name">
+                <button id="remove-attendee-btn">Remove Attendee</button>
+            </div>
+        </section>
+
+        <script src="js/event.js"></script>
+    </body>
+</html>
